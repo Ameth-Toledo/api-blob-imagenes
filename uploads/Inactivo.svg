@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="343.956mm" height="254mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 34396 25400"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str3 {stroke:#FFC107;stroke-width:100}
+    .str2 {stroke:#FFC107;stroke-width:20}
+    .str0 {stroke:#FFC107;stroke-width:7.62}
+    .str1 {stroke:white;stroke-width:7.62}
+    .fil3 {fill:none}
+    .fil2 {fill:#FEFEFE}
+    .fil0 {fill:#FFC107}
+    .fil1 {fill:white}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <rect x="8873" y="1946" width="18110" height="18110"/>
+   </clipPath>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g style="clip-path:url(#id0)">
+   <image x="8873" y="1946" width="18110" height="18110" xlink:href="Inactivo_Images\Inactivo_ImgID1.png"/>
+  </g>
+  <ellipse class="fil0 str0" cx="17928" cy="15628" rx="291" ry="296"/>
+  <path class="fil1 str1" d="M20762 14276c-111,0 -376,-2952 -3432,-2617 -287,31 -2062,621 -2199,2622 -7,108 -947,215 -946,-310 3,-985 7,-1970 10,-2955 0,0 -1,-1441 1956,-1707 1231,-15 2461,-29 3692,-43 814,-22 1719,1032 1842,1920 -9,931 -17,1863 -26,2794 -2,180 18,251 -17,279 -28,22 -90,16 -227,17l-653 2z"/>
+  <ellipse class="fil2 str1" cx="17915" cy="6984" rx="1720" ry="1694"/>
+  <path class="fil0 str2" d="M17645 13060c1,-379 576,-379 573,13 -1,528 -3,1055 -4,1583 0,334 -587,332 -569,-18 0,-526 0,-1052 0,-1579z"/>
+  <ellipse class="fil3 str3" cx="17939" cy="14396" rx="2281" ry="2260"/>
+ </g>
+</svg>

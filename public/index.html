@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload and Display Images and PDFs</title>
+    <style>
+        img {
+            display: block;
+            margin: 10px 0;
+            max-width: 100%; /* Ajusta el ancho máximo de las imágenes */
+            height: auto; /* Ajusta la altura automáticamente */
+        }
+        .uploaded-image {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            width: 150px;
+        }
+        canvas {
+            border: 1px solid #ddd;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload File</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*,application/pdf" required>
+        <button type="submit">Upload</button>
+    </form>
+    <h2>Uploaded Images</h2>
+    <div id="imageContainer"></div>
+    <h2>Uploaded PDFs</h2>
+    <canvas id="pdfCanvas"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.1.81/pdf.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
