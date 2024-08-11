@@ -7,7 +7,7 @@ document.getElementById('uploadForm').addEventListener('submit', async (event) =
     formData.append('image', fileField.files[0]);
 
     try {
-        const response = await fetch('http://localhost:3000/images', {
+        const response = await fetch('http://localhost:3002/images', {
             method: 'POST',
             body: formData
         });
@@ -25,7 +25,7 @@ document.getElementById('uploadForm').addEventListener('submit', async (event) =
 
 async function loadFiles() {
     try {
-        const response = await fetch('http://localhost:3000/images');
+        const response = await fetch('http://localhost:3002/images');
         if (!response.ok) {
             throw new Error('Failed to fetch files.');
         }
@@ -40,14 +40,14 @@ async function loadFiles() {
         files.forEach(file => {
             if (file.mimetype.startsWith('image/')) {
                 const img = document.createElement('img');
-                img.src = `http://localhost:3000/uploads/${file.filename}`;
+                img.src = `http://localhost:3002/uploads/${file.filename}`;
                 img.alt = file.filename;
                 img.classList.add('uploaded-image');
                 imageContainer.appendChild(img);
             } else if (file.mimetype === 'application/pdf') {
                 pdfCanvas.style.display = 'block'; // Muestra el canvas si hay PDFs
 
-                const pdfUrl = `http://localhost:3000/uploads/${file.filename}`;
+                const pdfUrl = `http://localhost:3002/uploads/${file.filename}`;
                 renderPDF(pdfUrl);
             }
         });
